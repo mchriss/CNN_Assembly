@@ -1,0 +1,9 @@
+CNN_no_padding(
+  (conv1): Conv2d(in_channels=1, out_channels=16, kernel_size=(3, 3), stride=(1, 1), padding=(0, 0))
+  (relu1): ReLU()
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=2704, out_features=500, bias=True)
+  (relu3): ReLU()
+  (fc2): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
